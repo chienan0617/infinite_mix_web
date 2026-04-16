@@ -29348,7 +29348,7 @@ return A.K(null,r)}})
 return A.L($async$a22,r)},
 b0x(){return A.Z("primary")},
 Z(a){var s=$.aEN.aH().i(0,a),r=J.bi(s)
-return A.aLK($.y_().pC("dark_mode",!1,t.y)?r.i(s,0):r.i(s,1))},
+return A.aLK($.y_().pC("dark_mode",!0,t.y)?r.i(s,0):r.i(s,1))},
 aZV(){return A.aC(null,0,0)},
 bS(a,b,c,d){var s=null
 return A.cG(a,s,s,s,A.eh(s,s,d,s,s,s,s,s,s,s,s,b,B.kP,s,c,s,s,!0,s,0,s,s,s,s,s,s),s,s)},
@@ -92558,7 +92558,7 @@ ah(){return new A.VV()}}
 A.VV.prototype={
 aA(){this.aP()
 $.Pq.n(0,"main",new A.atf(this))},
-I(a){var s=A.kd(a).WE(!1),r=$.y_().pC("dark_mode",!1,t.y)?B.as:B.ak
+I(a){var s=A.kd(a).WE(!1),r=$.y_().pC("dark_mode",!0,t.y)?B.as:B.ak
 return new A.B3(B.Q8,new A.atd(),A.wb(r,null,A.Z("primary"),null),s,null)}}
 A.atf.prototype={
 $0(){return this.a.ad(new A.ate())},
@@ -92981,10 +92981,10 @@ return A.t1(12,A.aC(A.di(new A.AR(a,A.X(a).h("AR<1>")).gh1().fB(0,new A.agb(a),t
 a7v(a){var s=null,r=A.Z("bg2"),q=A.X(a).h("a5<1,p9>")
 q=A.a3(new A.a5(a,new A.aga(),q),q.h("au.E"))
 return A.t1(12,A.bt(s,A.aJf(q,12,12),B.m,s,s,s,s,s,B.dM,s,s,1/0),r,0.6,22)},
-a7s(){var s,r,q=null,p="Unknown",o="Infinite Mix"
+a7s(){var s,r,q=null,p="1.0.0",o="Infinite Mix"
 try{p=$.alM.aH()
 o=$.aCf.aH()}catch(s){}r=A.Z("bg2")
-return A.t1(12,A.bt(q,A.di(A.b([A.OG(A.bS("CA\uff33\uff34\uff35\uff24\uff29\uff2f",11,B.aD,A.Z("tx2")),0.25),A.aC(q,8,q),A.bS(A.k(o)+" \xb7 "+A.k(p),12,B.V,A.Z("tx2"))],t.p),B.C,B.w,B.O),B.m,q,q,q,q,q,B.dM,q,q,1/0),r,0.2,22)}}
+return A.t1(12,A.bt(q,A.di(A.b([A.OG(A.bS("CASTUDIO",11,B.aD,A.Z("tx2")),0.25),A.aC(q,8,q),A.bS(A.k(o)+" \xb7 "+A.k(p),12,B.V,A.Z("tx2"))],t.p),B.C,B.w,B.O),B.m,q,q,q,q,q,B.dM,q,q,1/0),r,0.2,22)}}
 A.agd.prototype={
 $1(a){return a.w===!0},
 $S:54}
@@ -93306,7 +93306,7 @@ $0(){return A.aVa(this.b,this.a.c)},
 $S:0}
 A.a59.prototype={
 $0(){var s="dark_mode",r=$.y_()
-r.ha(s,!r.pC(s,!1,t.y))
+r.ha(s,!r.pC(s,!0,t.y))
 A.aUc(A.b(["craft"],t.s))},
 $S:0}
 A.a5a.prototype={
