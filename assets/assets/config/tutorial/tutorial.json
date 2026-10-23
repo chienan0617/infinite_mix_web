@@ -6,5 +6,15 @@
     "new": [0, "home_new", 0],
     "load": [0, "home_load", 0],
     "settings": [0, "home_settings", 0]
+  },
+  "craft": {
+    "topbar": [1, "craft_topbar", 1, 24],
+    "action_bar": [0, "craft_action_bar", 1, 32],
+    "trash": [0, "craft_trash", 0, 40]
+  },
+  "level": {
+    "header": [1, "level_header", 1, 22],
+    "action_bar": [0, "level_action_bar", 1, 32],
+    "trash": [0, "level_trash", 0, 40]
   }
 }

@@ -4,5 +4,11 @@
   "home_level": "Choose level challenge to experience different difficulties",
   "home_new": "Click here to start a new game",
   "home_load": "Load previous game progress from saves",
-  "home_settings": "Adjust game settings like theme and language"
+  "home_settings": "Adjust game settings like theme and language",
+  "craft_topbar": "Switch saves, return home, re-center the canvas or change the theme here",
+  "craft_action_bar": "Take unlocked elements from the library; drag two together to combine them",
+  "craft_trash": "Drag an element here and release to delete it",
+  "level_header": "Your goal, moves used and current similarity show here; tap the bulb for a hint",
+  "level_action_bar": "Take unlocked elements from the library and craft one identical or closest to the goal",
+  "level_trash": "Drag an element here and release to delete it"
 }
