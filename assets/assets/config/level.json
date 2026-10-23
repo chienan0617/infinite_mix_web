@@ -1,5 +1,5 @@
 {
-  "defaultGoalSimilarityThreshold": 0.8875,
+  "defaultGoalSimilarityThreshold": 0.375,
   "nearMissThreshold": 0.72,
   "minResonanceThreshold": 0.4,
   "thresholdDecrementPerMix": 0.0025,
