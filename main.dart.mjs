@@ -458,6 +458,7 @@ class CompiledApp {
       _1345: s => JSON.stringify(s),
       _1346: s => printToConsole(s),
       _1347: (o, p, r) => o.replaceAll(p, () => r),
+      _1348: (o, p, r) => o.replace(p, () => r),
       _1349: Function.prototype.call.bind(String.prototype.toLowerCase),
       _1350: s => s.toUpperCase(),
       _1351: s => s.trim(),
