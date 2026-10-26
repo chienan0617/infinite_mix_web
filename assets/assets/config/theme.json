@@ -1,108 +1,98 @@
-{
+﻿{
   "dark_mode": false,
-  "primary": [
-    "#00E5FF",
-    "#00B8CC"
-  ],
-  "secondary": [
-    "#00E5FF",
-    "#00B8CC"
-  ],
-  "tertiary": [
-    "#1B6CA8",
-    "#1B6CA8"
-  ],
-  "normal": [
-    "#E8F0F4",
-    "#E8F0F4"
-  ],
-  "debug_color": "#00E5FF",
-  "debug_color_2": "#7FFFEF",
   "default_font_family": "Space Grotesk",
   "enable_debug_box": false,
   "enable_liquid_glass": true,
 
-  "bg1": [
-    "#0D1B2A",
-    "#F0F4F8"
-  ],
-  "bg1_5": [
-    "#111F30",
-    "#E8EFF5"
-  ],
-  "bg2": [
-    "#162436",
-    "#DDE6EF"
-  ],
-  "bg3": [
-    "#1E3045",
-    "#CDD9E5"
-  ],
-  "bg4": [
-    "#273D56",
-    "#BBCFDF"
-  ],
-  "bg5": [
-    "#314D6A",
-    "#A8BFCF"
-  ],
+  "debug_color": "#9C8CE8",
+  "debug_color_2": "#DE5F97",
 
-  "so1": [
-    "#00E5FF",
-    "#DDE6EF"
-  ],
+  "neutrals": {
+    "bg0": ["#12161D", "#F7F5F0"],
+    "bg1": ["#171C25", "#F1EEE7"],
+    "bg2": ["#1D2430", "#EAE5DC"],
+    "bg3": ["#26303E", "#DED8CC"],
+    "bg4": ["#333E4E", "#CFC8B9"],
+    "bg5": ["#414D61", "#BDB4A2"],
+    "ink1": ["#DCE2EC", "#1C2434"],
+    "ink2": ["#AAB5C6", "#45526B"],
+    "ink3": ["#7C8798", "#75829B"],
+    "ink4": ["#5C6678", "#9BA5B9"],
+    "line": ["#0FFFFFFF", "#0F1C2434"]
+  },
 
-  "tx1": [
-    "#FFFFFF",
-    "#0D1B2A"
-  ],
-  "tx1p": [
-    "#FFFFFF",
-    "#FFFFFF"
-  ],
-  "tx2": [
-    "#E8F0F4",
-    "#1E3045"
-  ],
-  "tx2p": [
-    "#7FFFEF",
-    "#1B6CA8"
-  ],
-  "tx3": [
-    "#00E5FF",
-    "#00B8CC"
-  ],
-  "tx4": [
-    "#7FFFEF",
-    "#00997A"
-  ],
-  "tx5": [
-    "#1B6CA8",
-    "#1B6CA8"
-  ],
-  "tx6": [
-    "#5B8DA6",
-    "#7A9DB5"
-  ],
-  "tx6p": [
-    "#3D6B85",
-    "#5A7D96"
-  ],
-
-  "background1": [
-    "#0D1B2A",
-    "#F0F4F8"
-  ],
-  "background2": [
-    "#00E5FF",
-    "#00B8CC"
-  ],
-  "background3": [
-    "#060E18",
-    "#FFFFFF"
-  ],
-  "background4": [
-    "#111F30",
-    "#E8EFF5"
-  ]
+  "accents": {
+    "brand": {
+      "strong": ["#9C8CE8", "#7C3AED"],
+      "strongAlt": ["#7E86DC", "#6D28D9"],
+      "soft": ["#229C8CE8", "#1A7C3AED"],
+      "on": ["#171030", "#FFFFFF"],
+      "border": ["#4A9C8CE8", "#4D7C3AED"],
+      "glow": ["#5E7E6CD4", "#527C3AED"]
+    },
+    "craft": {
+      "strong": ["#8A6BE0", "#6D28D9"],
+      "strongAlt": ["#DE5F97", "#BE185D"],
+      "soft": ["#228A6BE0", "#1A6D28D9"],
+      "on": ["#FFFFFF", "#FFFFFF"],
+      "border": ["#4A9C8CE8", "#4D7C3AED"],
+      "glow": ["#5E8A6BE0", "#597C3AED"]
+    },
+    "gold": {
+      "strong": ["#E8B04C", "#D97706"],
+      "strongAlt": ["#DE8148", "#B45309"],
+      "soft": ["#22E8B04C", "#1AD97706"],
+      "on": ["#2B1A02", "#FFFFFF"],
+      "border": ["#4AE8B04C", "#4DD97706"],
+      "glow": ["#52D99A40", "#52D97706"]
+    },
+    "emerald": {
+      "strong": ["#4CC398", "#059669"],
+      "strongAlt": ["#31AB80", "#047857"],
+      "soft": ["#224CC398", "#1A059669"],
+      "on": ["#03291B", "#FFFFFF"],
+      "border": ["#4A4CC398", "#4D059669"],
+      "glow": ["#5231AB80", "#52059669"]
+    },
+    "rose": {
+      "strong": ["#EE8090", "#E11D48"],
+      "strongAlt": ["#D95C71", "#BE123C"],
+      "soft": ["#22EE8090", "#1AE11D48"],
+      "on": ["#33060F", "#FFFFFF"],
+      "border": ["#4AEE8090", "#4DE11D48"],
+      "glow": ["#52D95C71", "#52E11D48"]
+    },
+    "azure": {
+      "strong": ["#54AEE0", "#0284C7"],
+      "strongAlt": ["#3F97CB", "#0369A1"],
+      "soft": ["#2254AEE0", "#1A0284C7"],
+      "on": ["#04202F", "#FFFFFF"],
+      "border": ["#4A54AEE0", "#4D0284C7"],
+      "glow": ["#523F97CB", "#520284C7"]
+    },
+    "magenta": {
+      "strong": ["#D483DE", "#C026D3"],
+      "strongAlt": ["#BC5FD0", "#A21CAF"],
+      "soft": ["#22D483DE", "#1AC026D3"],
+      "on": ["#2B0832", "#FFFFFF"],
+      "border": ["#4AD483DE", "#4DC026D3"],
+      "glow": ["#52BC5FD0", "#52C026D3"]
+    },
+    "teal": {
+      "strong": ["#46BCAA", "#0D9488"],
+      "strongAlt": ["#2AA091", "#0F766E"],
+      "soft": ["#2246BCAA", "#1A0D9488"],
+      "on": ["#03251F", "#FFFFFF"],
+      "border": ["#4A46BCAA", "#4D0D9488"],
+      "glow": ["#522AA091", "#520D9488"]
+    },
+    "lime": {
+      "strong": ["#9BC94F", "#65A30D"],
+      "strongAlt": ["#75AC34", "#4D7C0F"],
+      "soft": ["#229BC94F", "#1A65A30D"],
+      "on": ["#1A2303", "#FFFFFF"],
+      "border": ["#4A9BC94F", "#4D65A30D"],
+      "glow": ["#5275AC34", "#5265A30D"]
+    }
+  }
 }
